@@ -7,7 +7,7 @@ class ChatApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Chat App"),),
+        appBar: AppBar(title: Text("Chaat App"),),
         body: Text("Chat App"),
       ),
     );
