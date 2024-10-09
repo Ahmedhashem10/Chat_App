@@ -34,7 +34,7 @@ class _HomePageState extends State<SplashPage> {
               ),
               Text('The best chat app of this century'),
               SizedBox(
-                height: 170,
+                height: 171,
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
