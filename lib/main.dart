@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_app/Features/splash_screans/Splash_page.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:task_app/features/splash/views/splash_view.dart';
 
 void main() {
   runApp(const ChatApp());
@@ -16,8 +17,10 @@ class ChatApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        useMaterial3: true,
+        textTheme: GoogleFonts.interTextTheme(),
       ),
-      home: const HomePage(),
+      home: const SplashPage(),
     );
   }
 }

@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:task_app/Features/login/Login_View.dart';
-import 'package:task_app/core/Colo_Theme/Color_page.dart';
+import 'package:task_app/features/login/login_View.dart';
+import 'package:task_app/core/Theme/color_page.dart';
 import 'package:task_app/core/constants/asset_images.dart';
 
 class SplashPage extends StatefulWidget {

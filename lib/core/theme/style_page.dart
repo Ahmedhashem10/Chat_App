@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_app/core/Colo_Theme/Color_page.dart';
+import 'package:task_app/core/Theme/color_page.dart';
 
 abstract class Styles {
   static TextStyle textStyle24 = const TextStyle(
